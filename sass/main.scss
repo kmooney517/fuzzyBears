@@ -1,0 +1,298 @@
+@import "bourbon";
+@import "font-awesome";
+
+body {
+  background: #e2ebf3;
+  margin: 10px;
+  margin-bottom: 100px;
+}
+
+
+
+// Something gets bigger eventually
+
+.original{
+	transition: 5s ease;
+}
+
+.end{
+	font-size: 12px
+}
+
+.big{
+	font-size: 32px;
+}
+
+
+
+
+
+// Alert on Click
+
+.box1{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	vertical-align: text;
+	text-align: center;
+	margin: 10px;
+	p{
+		padding: 25px 10px;
+	}
+}
+
+
+
+
+
+
+
+// Transition on click
+
+.box2{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	vertical-align: text;
+	text-align: center;
+	margin: 10px;
+	transition: 10s ease;
+	p{
+		padding: 25px 10px;
+	}
+}
+
+.newStyle{
+	width: 200px;
+	height: 200px;
+}
+
+
+
+
+
+
+// Show something else on hover
+
+.nextTo div{
+	display: inline-block;
+}
+
+
+.box3{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	vertical-align: text;
+	text-align: center;
+	margin: 10px;
+	transition: 10s ease;
+	p{
+		padding: 25px 10px;
+	}
+}
+
+.box4{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	vertical-align: text;
+	text-align: center;
+	margin: 10px;
+	background-color: blue;
+	p{
+		padding: 25px 10px;
+		color: red;
+	}
+}
+
+.none {
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	border: none;
+}
+
+
+
+
+
+
+// Creating the tab structure for text below tabs
+
+
+.buttons div{
+	display: inline-block;
+}
+
+.hidden{
+	display: none;
+}
+
+.box5{
+	text-align: center;
+	border: 1px solid black;
+	background-color: blue;
+	width: 100px;
+	color: white;
+}
+
+.box6{
+	text-align: center;
+	border: 1px solid black;
+	background-color: blue;
+	width: 100px;
+	color: white;
+}
+
+.box7{
+	text-align: center;
+	border: 1px solid black;
+	background-color: blue;
+	width: 100px;
+	color: white;
+}
+
+
+
+
+
+
+
+// Ellipses & text overflow example
+
+.ellipsisExample{
+	width: 200px;
+	height: 50px;
+	border: 1px solid black;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+
+
+
+
+// Basic Header structure with logo left and links right
+// When using floats you must clear the next thing to keep it below the floated text
+
+.headEx div{
+	display: inline-block;
+}
+
+.left{
+	padding: 20px;
+	border: 1px solid black;
+	float: left;
+}
+
+.right{
+	padding: 20px;
+	border: 1px solid black;
+	float: right;
+}
+
+.clear{
+	text-align: center;
+	clear: both;
+}
+
+
+
+
+
+
+// Text inside box moves with scroll bar
+
+.scrollBar{
+	width: 300px;
+	height: 150px;
+	padding: 10px;
+	border: 1px solid black;
+	overflow: scroll;
+}
+
+
+
+
+
+
+// Fading text left or right (can do up and down by transitioning height to 0 as well)
+
+.smooth div{
+	display: inline-block;
+	margin-right: -5px;
+}
+
+.red{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	background-color: red;
+}
+
+.yellow{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	background-color: yellow;
+}
+
+.blue{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	background-color: blue;
+}
+
+.slideOut{
+	width: 0;
+	overflow: hidden;
+	transition: 2s ease;
+}
+
+
+
+
+
+//Clock
+
+#clock{
+	width: 500px;
+	height: 200px;
+	font-size: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
